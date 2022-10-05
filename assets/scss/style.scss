@@ -1,8 +1,8 @@
-$red: red;
-$blue: blue;
+@import url("./_variables.scss");
+// @import "./variables"
 
 body {
-    // background-color: $blue;
+    background-color: $blue;
 }
 
 img {
