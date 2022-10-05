@@ -2,9 +2,16 @@
 // @import "./variables"
 
 body {
-    background-color: $blue;
-}
 
-img {
-    margin-right: 2rem;
+    // background-color: $blue;
+    #logo {
+        width: 100px
+    }
+
+    #img-box {
+        img {
+            margin-right: 2rem;
+        }
+    }
+
 }
