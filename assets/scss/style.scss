@@ -1,9 +1,13 @@
-@import url("./_variables.scss");
-// @import "./variables"
+// @import url("./_variables.scss");
+// @import "variables"
+
+// Questa é la sintassi corretta per l'import, ovvero il partial
+@import 'variables';
 
 body {
 
-    // background-color: $blue;
+    background-color: $blue;
+
     #logo {
         width: 100px
     }
